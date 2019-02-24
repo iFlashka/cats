@@ -9,6 +9,7 @@ export default new Vuex.Store({
   },
   mutations: {
     PUSH_IN_HISTORY (state, item) {
+      console.log(state);
       state.history.push(item)
     }
   },
